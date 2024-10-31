@@ -4,8 +4,10 @@
   "description": "Assignment 2 ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
+   
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mihir-web/Express-Assignment2-Mihir.git"
