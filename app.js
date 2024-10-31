@@ -20,7 +20,7 @@ const port = process.env.port || 3000;
 
 // Set up static files path
 app.use(express.static(path.join(__dirname, 'public')));
-// app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'));
 // Set up Handlebars template engine with helper registration
 app.engine('.hbs', engine({
     extname: '.hbs',
