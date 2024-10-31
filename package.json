@@ -1,0 +1,23 @@
+{
+  "name": "asn2-mihir",
+  "version": "1.0.0",
+  "description": "Assignment 2 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mihir-web/Express-Assignment2-Mihir.git"
+  },
+  "author": "Mihir Hirpara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mihir-web/Express-Assignment2-Mihir/issues"
+  },
+  "homepage": "https://github.com/Mihir-web/Express-Assignment2-Mihir#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
+  }
+}

@@ -1,0 +1,26 @@
+<table border="1">
+    <tr>
+        <th>Movie Title</th>
+        <th>Year</th>
+        <th>Released</th>
+        <th>Genre</th>
+        <th>Actors</th>
+        <th>Country</th>
+        <th>Language</th>
+        <th>Metascore</th>
+    </tr>
+    {{#each result}}
+    {{!-- {{#if (notEqualsto this.Metascore "N/A")}} --}}
+    <tr class="{{highlightnullNoMetascore Metascore}}">
+        <td>{{this.Title}}</td>
+        <td>{{this.Year}}</td>
+        <td>{{this.Released}}</td>
+        <td>{{this.Genre}}</td>
+        <td>{{this.Actors}}</td>
+        <td>{{this.Country}}</td>
+        <td>{{this.Language}}</td>
+        <td>{{this.Metascore}}</td>
+    </tr>
+    {{!-- {{/if}} --}}
+    {{/each}}
+</table>
