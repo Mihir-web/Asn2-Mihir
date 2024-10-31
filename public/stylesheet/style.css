@@ -5,7 +5,7 @@ body {
   }
   
 main{
-    /* height:65vh; */
+    min-height:76vh;
     max-height: auto;
     border: 1px solid gray;
     display: flex;
@@ -22,6 +22,22 @@ header{
     padding:15px;
     border: 1px solid gray;
     font-weight: 600;
+}
+
+.nav_links{
+    margin:10px 0px;
+}
+.nav_links a{
+    text-decoration:none;
+    font-size:15px;
+    margin:20px;
+    font-weight: 600;
+    color:#000;
+    transition: all 0.35s ease-in-out;
+}
+
+.nav_links a:hover{
+    color:#4fabc5;
 }
 
 footer{
